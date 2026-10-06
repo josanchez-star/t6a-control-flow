@@ -5,5 +5,6 @@
 interval = 15  # minutes between checks
 
 for check in range(1, 11):
+    # Calculate the minutes after shift start for this check
     minutes = check * interval
     print(f"Check {check}: {minutes} minutes after shift start")

@@ -16,4 +16,5 @@ for day in range(1, 31):
     elif day % 5 == 0:
         print(f"Day {day}: Scanner audit")
     else:
-        print(f"Day {day}: Normal operations")
+        print(f"Day {day}: Normal operations")  
+
