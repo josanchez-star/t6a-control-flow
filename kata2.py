@@ -9,6 +9,7 @@
 # Expected: Day 3: Cycle count, Day 5: Scanner audit, Day 15: FULL AUDIT, Day 30: FULL AUDIT
 
 for day in range(1, 31):
+    # Determine the type of audit for this day
     if day % 3 == 0 and day % 5 == 0:
         print(f"Day {day}: FULL AUDIT")
     elif day % 3 == 0:
