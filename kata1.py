@@ -9,3 +9,4 @@ for check in range(1, 11):
     minutes = check * interval
     # Print the check time
     print(f"Check {check}: {minutes} minutes after shift start")
+    # Move to the next check
