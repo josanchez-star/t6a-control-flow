@@ -12,6 +12,7 @@ for day in range(1, 31):
     # Determine the type of audit for this day
     if day % 3 == 0 and day % 5 == 0:
         print(f"Day {day}: FULL AUDIT")
+        # This day is a FULL AUDIT
     elif day % 3 == 0:
         print(f"Day {day}: Cycle count")
     elif day % 5 == 0:
