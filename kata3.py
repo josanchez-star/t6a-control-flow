@@ -10,6 +10,7 @@
 # Stretch: do the other Kata 3 option too.
 
 for aisle in range(1, 4):
+    # Iterate through each shelf in the current aisle
     for shelf in range(1,5):
         print(f"A{aisle}-S{shelf}", end=" ") 
         print()
