@@ -12,6 +12,7 @@
 for aisle in range(1, 4):
     # Iterate through each shelf in the current aisle
     for shelf in range(1,5):
+        # Print the location code for the current shelf
         print(f"A{aisle}-S{shelf}", end=" ") 
         print()
   
